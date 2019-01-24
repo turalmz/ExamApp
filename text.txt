@@ -1,0 +1,4 @@
+alma,apple
+ev,home
+yeni,new
+almaq,buy
