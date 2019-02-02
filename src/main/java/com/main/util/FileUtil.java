@@ -22,7 +22,8 @@ public class FileUtil {
         String translation = parts[1];
         
         Config.wordMap.put(word, translation);
-        
+        Config.askWordMap.put(word, translation);
+
     }
 
     public static String read(String fileName) throws Exception {
@@ -36,6 +37,7 @@ public class FileUtil {
                 
                 setWordToMap(line);
             }
+            
             return result;
         }
     }

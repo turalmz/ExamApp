@@ -15,6 +15,8 @@ import java.util.Map;
 public class Config {
 
     public static Map<String, String> wordMap = new HashMap<String, String>();
+    public static Map<String, String> askWordMap = new HashMap<String, String>();
+
     public static String lang = "en";
     public static String trueAnswer = "Right Answer!!!";
     public static String falseAnswer = "Wrong Answer!!!";
